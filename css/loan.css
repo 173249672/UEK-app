@@ -1,0 +1,156 @@
+*{
+	font-size: 14px;
+	text-decoration: none;
+	list-style: none;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: scroll;
+}
+html{
+	overflow: hidden;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 0.89rem;
+	background: #0078e6;
+	text-align: center;
+	color: white;
+	line-height: 0.89rem;
+	/*overflow: hidden;*/
+	position: absolute;
+	top: 0px;
+	z-index: 999;
+}
+header img{
+	vertical-align: middle;
+	height: 0.67rem;
+	margin-right: 0.1rem;
+}
+header span{
+	font-size: 0.3rem;
+	font-weight: 900;
+}
+.banner{
+	width: 100%;
+	height: 2.82rem;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	margin-top: 0.89rem;
+}
+.bigbox{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 0.24rem;
+	background: #f5f6fa;
+	box-sizing: border-box;
+}
+.box{
+	width: 100%;
+	height: 0.83rem;
+	line-height: 0.83rem;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: 690;
+}
+.box a{
+	font-size: 0.22rem;
+	color: #494747;
+}
+.box i{
+	font-size: 0.22rem;
+	margin: 0px 0.24rem;
+}
+.box-son{
+	width: 100%;
+	/*height: 4.66rem;*/
+	/*margin-top: 0.5rem;*/
+	background: white;
+	box-sizing: border-box;
+	padding: 0.3rem 0.19rem 0.32rem 0.39rem;
+	position: relative;
+}
+.box-son span{
+	display: block;
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-right: 0.2rem;
+    position:absolute;
+    left: 0.19rem;
+    top: 0.32rem;
+}
+.box-son .box-Son{
+	width: 100%;
+	height: 0.4rem;
+	box-sizing: border-box;
+	border-bottom: 1px dashed black;
+	padding-bottom: 0.15rem;
+	overflow: hidden;
+	line-height: 0.24rem;
+	margin-bottom: 0.16rem;
+}
+.box-Son b{
+	display: block;
+	color: #444444;
+	font-size: 0.24rem;
+}
+.boxson{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+}
+.boxson ul{
+	width: 100%;
+	height: auto;
+}
+.boxson ul>li{
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.36rem;
+}
+.an{
+	/*width: 100%;*/
+	height: 3.62rem;
+	background: #474747;
+	margin-left: -0.39rem;
+	margin-right: -0.19rem;
+}
+.xiaoan{
+	width: 100%;
+	border: 1px dashed #999999;
+	margin-top: 0.31rem;
+}
+.fengxiang{
+	/*width: 100%;*/
+	height: 0.4rem;
+	/*background: red;*/
+	margin-top: 0.27rem;
+	line-height: 0.4rem;
+	margin-left: -0.2rem;
+}
+.fengxiang em{
+	font-style: normal;
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+}
+/*.fengxiang i:before{
+	font-size: 0.4rem;
+}*/
+footer{
+	width: 100%;
+	/*height: 80px;*/
+	text-align: center;
+	margin-top: 0.3rem;
+}
+footer p{
+	font-size: 0.2rem;
+	color: #666666;
+	margin-bottom: 0.34rem;
+	line-height: 0.3rem;
+}
